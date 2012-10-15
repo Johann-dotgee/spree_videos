@@ -1,0 +1,12 @@
+<script type="text/javascript">
+  $(document).ready(function(){
+  	$("#video-player iframe").width(340);
+  	$("#video-player iframe").height(280);
+  	$("#video-thumbnails a").on('click', function(e){
+  		e.preventDefault();
+  		var url = $(this).attr("data-url");
+  		var iframe = $("#video-player iframe");
+  		iframe.attr("src", url);
+  	});
+  });
+</script>   

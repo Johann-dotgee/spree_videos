@@ -1,0 +1,5 @@
+<% @product.vids.each do |video| %>
+  <%= link_to 'javascript:void(0);', "data-url" => video.url[:embed] do %>
+  	<%= image_tag video.thumbs[:medium], :height => 70 %>
+  <% end %>
+<% end %>

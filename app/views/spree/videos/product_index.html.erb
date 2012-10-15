@@ -1,0 +1,22 @@
+<h1><%= h @product.name %> Videos</h1>
+
+<table>
+  <tr>
+    <th><%= t(:host) %></th>
+    <th><%= t(:title) %></th>
+    <th><%= t(:product) %></th>
+    <th></th>
+    <th colspan="2"><%= t(:actions) %></th>
+  </tr>
+
+<% @videos.each do |video| %>
+  <tr>
+    <td><%= video.hebergeur.camelize %></td>
+    <td><%= link_to video.title, video %></td>
+    <td><%= link_to video.product.name, video.product %></td>
+    <td>|</td>
+    <td><%= link_to t(:watch), video %></td>
+    <td><%= link_to t(:watch_on, :hebergeur => video.hebergeur), video.url, :target => "_blank" %></td>
+  </tr>
+<% end %>
+</table>

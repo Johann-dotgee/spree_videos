@@ -1,0 +1,31 @@
+#product-videos{
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+#product-videos iframe{
+  width: 340px !important;
+  height: 200px !important;
+}
+#description strong, #video_show strong, #title strong{
+  text-align: left;
+  display: inline-block;
+  width: 100%;
+  border-bottom: 1px solid #D9D9DB;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+#user, #published{
+  display: inline-block;
+  width: 250px;
+}
+#img{
+  display: inline-block;
+  margin-right: 100px;
+}
+#video_show{
+  text-align: center;
+}
+#video_show iframe{
+  display: inline-block;
+}

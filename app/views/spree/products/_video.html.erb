@@ -1,0 +1,9 @@
+<div id="product-videos">
+	<div id="video-player">
+		<%= @product.vids.first.embed %>
+	</div>
+	<div id='video-thumbnails'>
+		<%= render 'video_thumbnails', :product => product%>
+	</div>
+	<%= render 'change_video' %>
+</div>

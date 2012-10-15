@@ -1,0 +1,19 @@
+en:
+  video: Video
+  videos: Videos
+  new_video: New Video
+  youtube_ref: YouTube ID
+  hebergeur: Host
+  reference: Reference
+  actions: Actions
+  product: Product
+  description: Description
+  show_on: "Show on %{hebergeur}"
+  watch: Watch here
+  watch_on: "Watch on %{hebergeur}"
+  product_videos: Product Videos
+  
+  helpers:
+    label:
+      video:
+      url: "Video Link or Reference"

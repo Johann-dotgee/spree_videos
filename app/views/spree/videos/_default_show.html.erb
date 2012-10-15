@@ -1,0 +1,24 @@
+<p id="user">
+  <strong><%= t(:user) %>:</strong>
+  <%= @video.author[:name] %>
+</p>
+
+<p id="published">
+  <strong><%= t(:published) %>:</strong>
+  <%= @video.publication %>
+</p>
+
+<p id="title">
+  <strong><%= t(:title) %>:</strong>
+  <%= @video.title %>
+</p>
+
+<p id="video_show">
+  <strong><%= t(:video) %></strong><br />
+  <%= @video.embed %>
+</p>
+
+<p id="description">
+  <strong><%= t(:description) %></strong>
+  <%= @video.description %>
+</p>
