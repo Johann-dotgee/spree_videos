@@ -3,7 +3,7 @@ Gem::Specification.new do |s|
   s.name        = 'spree_videos'
   s.version     = '1.2.4'
   s.summary     = 'Adds youtube videos to Spree commerce products'
-  s.description = 'Add multiuple youtube videos, and a thumbnail selector' + 
+  s.description = 'Add multiple youtube, vimeo and dailymotion videos, and a thumbnail selector' + 
                   'for those products to a Spree commerce product'
   s.required_ruby_version = '>= 1.8.7'
 

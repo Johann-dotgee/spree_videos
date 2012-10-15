@@ -1,4 +1,4 @@
-SpreeVideos
+Spree Videos (spree_videos)
 ===========
 
 Add videos to your products to make them more attractives!
@@ -33,8 +33,8 @@ Installation
 In your `Gemfile`:
 
 ```ruby
-gem 'video_info', :git => 'git://github.com/Johann-dotgee/video_info.git'
-gem 'spree_videos', :git => 'git://github.com/Johann-dotgee/spree_videos.git'
+gem 'video_info', :git => 'git://github.com/dotgee/video_info.git'
+gem 'spree_videos', :git => 'git://github.com/dotgee/spree_videos.git'
 ```
 
 Then, just run a
